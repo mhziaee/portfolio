@@ -121,6 +121,6 @@ export default function SellerCaseStudy(){
       </div>
     </section>
 
-    <a className="next-project" href="/#work"><span>Next case study</span><strong>AI Review Summary ↗</strong></a>
+          <a className="next-project" href="/work/ai-review-summary"><span>Next case study</span><strong>AI Review Summary ↗</strong></a>
   </main>;
 }
