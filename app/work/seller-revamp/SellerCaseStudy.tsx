@@ -3,23 +3,16 @@
 import {useState} from "react";
 
 const views=[
-  {label:"Storefront",src:"/case-studies/seller/overview.webp",alt:"Seller storefront showing identity, trust signals, collections, and products",caption:"Identity, proof, content, and commerce in a seller-curated storefront"},
-  {label:"Products",src:"/case-studies/seller/products.webp",alt:"Seller storefront products tab with filters, sorting, and product cards",caption:"A focused catalog that keeps the seller context visible"},
-  {label:"Video",src:"/case-studies/seller/video.webp",alt:"Seller storefront video tab with a grid of seller-created videos",caption:"A dedicated surface for visual storytelling and video-led discovery"},
-  {label:"Reviews",src:"/case-studies/seller/reviews.webp",alt:"Seller storefront reviews tab with rating distribution and customer feedback",caption:"Seller feedback made part of the shopping decision"},
+  {label:"Storefront",src:"/case-studies/seller/final-overview.webp",alt:"Seller storefront showing identity, trust signals, collections, and products",caption:"Identity, proof, content, and commerce in a seller-curated storefront"},
+  {label:"Products",src:"/case-studies/seller/final-products.webp",alt:"Seller storefront products tab with filters, sorting, and product cards",caption:"A focused catalog that keeps the seller context visible"},
+  {label:"Video",src:"/case-studies/seller/final-video.webp",alt:"Seller storefront video tab with a grid of seller-created videos",caption:"A dedicated surface for visual storytelling and video-led discovery"},
+  {label:"Reviews",src:"/case-studies/seller/final-reviews.webp",alt:"Seller storefront reviews tab with rating distribution and customer feedback",caption:"Seller feedback made part of the shopping decision"},
 ];
 
 const principles=[
   {number:"01",title:"Identity",copy:"Give sellers a recognizable presence without fragmenting the marketplace experience."},
   {number:"02",title:"Ownership",copy:"Let each seller build up content, reputation, and merchandising value over time."},
   {number:"03",title:"Boundaries",copy:"Keep the system consistent while giving sellers meaningful control inside it."},
-];
-
-const storefrontWidgets=[
-  {number:"01",title:"Shelves",copy:"Curated product groups created and named by the seller."},
-  {number:"02",title:"Product carousels",copy:"Best sellers, new arrivals, or products from a selected shelf."},
-  {number:"03",title:"Voucher",copy:"Seller promotions placed directly inside discovery."},
-  {number:"04",title:"Video",copy:"One or more story-led carousels selected by the seller."},
 ];
 
 export default function SellerCaseStudy(){
@@ -92,22 +85,6 @@ export default function SellerCaseStudy(){
         <div className="seller-heading-row">
           <span className="seller-section-label">Storefront system / 05</span>
           <div><h2>Sellers choose what appears—and in what order.</h2><p>The Storefront is not a fixed template. Digikala defines the component library and interaction patterns; each seller selects and orders the widgets through Seller Panel.</p></div>
-        </div>
-        <div className="seller-storefront-builder">
-          <div className="seller-widget-library">
-            <span>Available widgets</span>
-            {storefrontWidgets.map(widget=><article key={widget.number}><small>{widget.number}</small><div><strong>{widget.title}</strong><p>{widget.copy}</p></div><b aria-hidden="true">+</b></article>)}
-          </div>
-          <div className="seller-widget-sequence">
-            <div><span>Seller-defined sequence</span><small>Configured in Seller Panel</small></div>
-            <ol>
-              <li><span>01</span><strong>Curated shelf</strong></li>
-              <li><span>02</span><strong>Best sellers</strong></li>
-              <li><span>03</span><strong>Voucher</strong></li>
-              <li><span>04</span><strong>Video stories</strong></li>
-            </ol>
-            <p><strong>Bounded customization:</strong> Digikala owns the system; the seller owns the merchandising sequence.</p>
-          </div>
         </div>
       </div>
     </section>
