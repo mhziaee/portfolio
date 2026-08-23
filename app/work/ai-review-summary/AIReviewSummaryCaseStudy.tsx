@@ -26,7 +26,14 @@ export default function AIReviewSummaryCaseStudy(){return <main className="case-
       <p>I designed the experience end to end—from the structure of the model&apos;s output to its entry point on the PDP—and used a controlled experiment to decide how the summary should be discovered.</p>
       <div><span>Role</span><strong>Product Designer</strong><small>Prompt collaboration · Interaction design · A/B test · Handoff &amp; QC</small></div>
     </div>
-    <figure className="ai-review-hero-visual"><img src="/case-studies/ai-review/ai-review-cover.png" alt="AI Review Summary across the Digikala product detail and review experience"/><figcaption>Product detail page · Review carousel · Full AI summary</figcaption></figure>
+    <figure className="ai-review-hero-visual">
+      <div className="ai-review-hero-mockups">
+        <img className="ai-review-hero-pdp" src="/case-studies/ai-review/hero-pdp.png" alt="Digikala product detail page with the AI Review Summary entry point"/>
+        <img className="ai-review-hero-entry" src="/case-studies/ai-review/hero-entry.png" alt="AI Review Summary card inside the customer reviews carousel"/>
+        <img className="ai-review-hero-summary" src="/case-studies/ai-review/hero-summary.png" alt="Expanded AI Review Summary modal with themes and feedback controls"/>
+      </div>
+      <figcaption>Product detail page · Review carousel · Full AI summary</figcaption>
+    </figure>
   </header>
 
   <section className="ai-review-outcome">
