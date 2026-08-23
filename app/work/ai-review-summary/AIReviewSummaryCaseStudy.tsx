@@ -78,10 +78,12 @@ export default function AIReviewSummaryCaseStudy(){return <main className="case-
 
   <section className="ai-review-final shell">
     <div className="ai-review-heading-row"><span className="ai-review-section-label">Final experience / 06</span><div><h2>Fast to scan. Honest about how it was made.</h2><p>The chosen carousel card opens a bottom sheet with an overall synthesis, theme chips, and feedback controls. A progressive word-by-word reveal communicates an AI-generated result, while the content itself is pre-generated in the backend—not written live in front of the customer.</p></div></div>
-    <div className="ai-review-final-grid">
-      <figure className="ai-review-pdp"><img src="/case-studies/ai-review/pdp.webp" alt="Full Digikala product detail page showing the AI Review Summary entry in context"/><figcaption>Entry point in the live PDP context</figcaption></figure>
-      <figure className="ai-review-sheet"><img src="/case-studies/ai-review/summary.webp" alt="Expanded AI Review Summary experience"/><figcaption>Expanded summary with balanced themes and feedback</figcaption></figure>
-    </div>
+    <figure className="ai-review-final-video">
+      <video src="/case-studies/ai-review/modal-opening.mov" poster="/case-studies/ai-review/summary.webp" autoPlay muted loop playsInline preload="metadata" aria-label="The AI Review Summary modal opening from its product-page entry point">
+        Your browser does not support embedded video.
+      </video>
+      <figcaption>Final interaction · Entry point to expanded AI Review Summary</figcaption>
+    </figure>
   </section>
 
   <section className="ai-review-rollout">
@@ -93,7 +95,6 @@ export default function AIReviewSummaryCaseStudy(){return <main className="case-
         <article><strong>≈20s</strong><span>Typical time</span><p>Most customers spent around twenty seconds with the full summary.</p></article>
         <article><strong>4%</strong><span>Under three seconds</span><p>Only a small share left the full summary almost immediately.</p></article>
       </div>
-      <figure className="ai-review-rollout-figure"><img src="/case-studies/ai-review/doc-assets/final-entry-and-sheet.png" alt="Final AI Review Summary carousel entry and expanded bottom sheet"/><figcaption>Final entry and expanded experience from the project design documentation</figcaption></figure>
     </div>
   </section>
 
