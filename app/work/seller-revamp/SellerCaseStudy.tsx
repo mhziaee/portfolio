@@ -3,10 +3,10 @@
 import {useState} from "react";
 
 const views=[
-  {label:"Storefront",src:"/case-studies/seller/final-overview.webp",alt:"Seller storefront showing identity, trust signals, collections, and products",caption:"Identity, proof, content, and commerce in a seller-curated storefront"},
-  {label:"Products",src:"/case-studies/seller/final-products.webp",alt:"Seller storefront products tab with filters, sorting, and product cards",caption:"A focused catalog that keeps the seller context visible"},
-  {label:"Video",src:"/case-studies/seller/final-video.webp",alt:"Seller storefront video tab with a grid of seller-created videos",caption:"A dedicated surface for visual storytelling and video-led discovery"},
-  {label:"Reviews",src:"/case-studies/seller/final-reviews.webp",alt:"Seller storefront reviews tab with rating distribution and customer feedback",caption:"Seller feedback made part of the shopping decision"},
+  {label:"Storefront",src:"/case-studies/seller/final-overview.png",alt:"Seller storefront showing identity, trust signals, collections, and products",caption:"Identity, proof, content, and commerce in a seller-curated storefront"},
+  {label:"Products",src:"/case-studies/seller/final-products.png",alt:"Seller storefront products tab with filters, sorting, and product cards",caption:"A focused catalog that keeps the seller context visible"},
+  {label:"Video",src:"/case-studies/seller/final-video.png",alt:"Seller storefront video tab with a grid of seller-created videos",caption:"A dedicated surface for visual storytelling and video-led discovery"},
+  {label:"Reviews",src:"/case-studies/seller/final-reviews.png",alt:"Seller storefront reviews tab with rating distribution and customer feedback",caption:"Seller feedback made part of the shopping decision"},
 ];
 
 const principles=[
@@ -76,7 +76,7 @@ export default function SellerCaseStudy(){
       <div className="seller-screen-pair">
         <figure><img src="/case-studies/seller/products.webp" alt="Seller products tab"/><figcaption><strong>Products</strong><span>Browse, filter, and sort the seller&apos;s assortment.</span></figcaption></figure>
         <figure><img src="/case-studies/seller/video.webp" alt="Seller video tab"/><figcaption><strong>Video</strong><span>Discover seller stories and products through a dedicated visual feed.</span></figcaption></figure>
-        <figure><img src="/case-studies/seller/reviews.webp" alt="Seller reviews tab"/><figcaption><strong>Reviews</strong><span>Use seller feedback as part of the purchase decision.</span></figcaption></figure>
+        <figure><img src="/case-studies/seller/reviews.png" alt="Seller reviews tab"/><figcaption><strong>Reviews</strong><span>Use seller feedback as part of the purchase decision.</span></figcaption></figure>
       </div>
     </section>
 
