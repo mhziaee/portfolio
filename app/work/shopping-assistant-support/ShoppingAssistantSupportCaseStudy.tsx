@@ -18,9 +18,9 @@ export default function ShoppingAssistantSupportCaseStudy(){return <main classNa
       <div><span>Role</span><strong>Sole Product Designer</strong><small>Framing · IA · Interaction design · Design system · QA/QC</small></div>
     </div>
     <figure className="dia-hero-visual">
-      <img className="dia-hero-shopping" src="/case-studies/dia-support/shopping.webp" alt="Shopping assistant conversation"/>
-      <img className="dia-hero-home" src="/case-studies/dia-support/home.webp" alt="Unified assistant entry"/>
-      <img className="dia-hero-support" src="/case-studies/dia-support/support.webp" alt="Structured support chatbot"/>
+      <img className="dia-hero-shopping" src="/case-studies/dia-support/hero-shopping-start.png" alt="Shopping Assistant opening state with suggested prompts"/>
+      <img className="dia-hero-home" src="/case-studies/dia-support/hero-shopping-results.png" alt="Shopping Assistant conversation with product recommendations"/>
+      <img className="dia-hero-support" src="/case-studies/dia-support/hero-support.png" alt="Support Chatbot with structured support intents"/>
     </figure>
   </header>
 
