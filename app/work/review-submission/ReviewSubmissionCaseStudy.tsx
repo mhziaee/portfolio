@@ -77,7 +77,10 @@ export default function ReviewSubmissionCaseStudy(){return <main className="case
   <section className="review-hypothesis">
     <div className="shell review-hypothesis-grid">
       <div><span className="review-section-label">Hypothesis / 06</span><h2>Would one easy action make the form feel less intimidating?</h2><p>I believed a rating-first pattern could improve contribution, but treated it as a hypothesis. Single-step, two-step, and the existing control were tested at the same time.</p></div>
-      <figure><img src="/case-studies/review-submission/rating-step.png" alt="First step of the two-step review flow before and after selecting a rating"/><figcaption>Step 1 · A low-effort rating before review detail</figcaption></figure>
+      <div className="review-hypothesis-visuals">
+        <figure><img src="/case-studies/review-submission/rating-empty.png" alt="Rating-first review step before selecting a rating"/><figcaption>Before rating · Continue stays disabled</figcaption></figure>
+        <figure><img src="/case-studies/review-submission/rating-selected.png" alt="Rating-first review step after selecting four stars"/><figcaption>Rating selected · Continue becomes available</figcaption></figure>
+      </div>
     </div>
   </section>
 
