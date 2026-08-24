@@ -2,6 +2,8 @@
 
 import { Fragment, useEffect, useRef } from "react";
 
+const SHOW_WORK_IN_PROGRESS_CASE_STUDIES = false;
+
 function useInView(){
   const ref=useRef<HTMLDivElement>(null);
   useEffect(()=>{const node=ref.current;if(!node)return;const observer=new IntersectionObserver(([entry])=>{if(entry.isIntersecting)node.dataset.visible="true"},{threshold:.16});observer.observe(node);return()=>observer.disconnect()},[]);
@@ -123,8 +125,10 @@ export default function Home(){
       <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Seller Page<br/>Revamp</>} tags={["Seller Trust","Mobile + desktop","Proactively self-initiated"]} highlights={[{value:"Trust",label:"Clear seller identity"},{value:"Inventory",label:"Designed for changing availability"},{value:"Modules",label:"Flexible storefront content"}]} href="/work/seller-revamp" cover={<SellerCover/>}/></Reveal>
       <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>AI Review<br/>Summary</>} tags={["AI","UGC","Experimentation"]} highlights={[{value:"+3%",label:"PDP → Add-to-Cart conversion · relative"},{value:"2×",label:"CTR · in-carousel vs. banner entry"},{value:"167K+",label:"Eligible products at rollout"}]} href="/work/ai-review-summary" cover={<AIReviewCover/>}/></Reveal>
       <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Review Submission<br/>Form</>} tags={["Sole Product Designer","A/B/C test","Cross-project reuse"]} highlights={[{value:"+24.6%",label:"Daily reviews · ~7K/day added"},{value:"+17.4%",label:"Daily reviewers"},{value:"+16.4%",label:"Form conversion"}]} href="/work/review-submission" cover={<ReviewSubmissionCover/>} compactTitle/></Reveal>
-      <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Nearby / 3-Hour<br/>Delivery Discovery</>} tags={["Sole Discovery Designer","App, Web, Desktop","Cross-squad rollout"]} highlights={[{value:"15%",label:"Eligible-product cart closures via carousel · 30 days"},{value:"+10%",label:"CTR · branded vs. white"},{value:"~10 days",label:"Design to production · 3 platforms"}]} href="/work/nearby-delivery" cover={<NearbyCover/>} compactTitle/></Reveal>
-      <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Pors-o-Joo —<br/>Community Shopping</>} tags={["Sole Product Designer","App + Mobile Web","0→1 launch"]} highlights={[{value:"202,590",label:"Engaged users"},{value:"60,204",label:"Questions asked"},{value:"173,516",label:"Answers given"}]} href="/work/pors-o-joo" cover={<PorsOJooCover/>} compactTitle/></Reveal>
+      {SHOW_WORK_IN_PROGRESS_CASE_STUDIES&&<>
+        <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Nearby / 3-Hour<br/>Delivery Discovery</>} tags={["Sole Discovery Designer","App, Web, Desktop","Cross-squad rollout"]} highlights={[{value:"15%",label:"Eligible-product cart closures via carousel · 30 days"},{value:"+10%",label:"CTR · branded vs. white"},{value:"~10 days",label:"Design to production · 3 platforms"}]} href="/work/nearby-delivery" cover={<NearbyCover/>} compactTitle/></Reveal>
+        <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Pors-o-Joo —<br/>Community Shopping</>} tags={["Sole Product Designer","App + Mobile Web","0→1 launch"]} highlights={[{value:"202,590",label:"Engaged users"},{value:"60,204",label:"Questions asked"},{value:"173,516",label:"Answers given"}]} href="/work/pors-o-joo" cover={<PorsOJooCover/>} compactTitle/></Reveal>
+      </>}
       <Reveal className="project case-project"><CaseStudyCard client="Digikala" title={<>Shopping Assistant +<br/>Support Chatbot</>} tags={["Sole Product Designer","2-week sprint","App, Web, Desktop"]} highlights={[{value:"<1%\u00a0→\u00a03.7%",label:"DIA entry share of active users · observed"},{value:"Stable",label:"Support chatbot usage"},{value:"6",label:"Navigation concepts explored"}]} href="/work/shopping-assistant-support" cover={<DiaSupportCover/>} compactTitle/></Reveal>
     </section>
     <FooterWave/>
