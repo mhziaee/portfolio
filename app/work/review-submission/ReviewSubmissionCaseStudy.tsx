@@ -124,5 +124,5 @@ export default function ReviewSubmissionCaseStudy(){return <main className="case
 
   <section className="reflection shell review-reflection"><span>Reflection / 11</span><h2>What I took forward.</h2><div><article><strong>Choose the product outcome.</strong><p>The winning variant should reflect the goal hierarchy, not simply the highest metric nearest the UI.</p></article><article><strong>Remove work instead of relocating it.</strong><p>Cross-project AI learning eliminated manual structure that customers did not need to provide.</p></article><article><strong>Own the imperfect success.</strong><p>A meaningful volume gain can coexist with a quality decline—and both belong in the product decision.</p></article></div></section>
 
-  <a className="next-project" href="/work/autocomplete"><span>Next case study</span><strong>Autocomplete Redesign ↗</strong></a>
+  <a className="next-project" href="/work/shopping-assistant-support"><span>Next case study</span><strong>Shopping Assistant + Support Chatbot ↗</strong></a>
 </main>}
