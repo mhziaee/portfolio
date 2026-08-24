@@ -104,7 +104,7 @@ function FooterWave(){
         </div>
         <div className="jenn-footer-art"><img ref={handRef} src="/footer-wave.svg" alt="Hand waving hello"/></div>
       </div>
-      <div className="jenn-footer-copyright" ref={copyrightRef}>© 2026 Hossein Ziaee - Based in Tehran, Australia</div>
+      <div className="jenn-footer-copyright" ref={copyrightRef}>© 2026 Hossein Ziaee - Based in Tehran, Iran</div>
     </div>
   </footer>;
 }
