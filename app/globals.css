@@ -270,6 +270,10 @@
   .seller-reflection{padding-top:82px}
 }
 
+/* Final experience imagery uses the supplied transparent-edge screenshots directly. */
+.dia-final-screens{padding:0 !important;background:transparent !important}
+@media(max-width:720px){.dia-final-screens{padding:0 !important}}
+
 /* AI Review Summary case study */
 .ai-review-case{--ai-violet:#6657ee;--ai-lilac:#e9eaff;--ai-ink:#121212;--ai-warm:#f2f0eb;background:#fff;color:#171715}
 .ai-review-hero{padding-bottom:150px}.ai-review-hero h1{max-width:1210px;font-size:clamp(60px,7.45vw,108px)}
