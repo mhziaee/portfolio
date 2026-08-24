@@ -64,7 +64,7 @@ export default function ShoppingAssistantSupportCaseStudy(){return <main classNa
 
   <section className="dia-final"><div className="shell dia-final-grid">
     <div><span className="dia-section-label">Final experience / 07</span><h2>Clear mode switching without losing orientation.</h2><p>A prominent segmented control shows the active service. DIA keeps its prompt suggestions, text input, and product responses; Support keeps its scenario menu and transactional pathways.</p><ul><li>Animated AI identity and improved icebreaker prompts</li><li>Immediate switching without backtracking</li><li>Existing marketplace navigation remains intact</li><li>Reusable design-system state, not a one-off control</li></ul></div>
-    <div className="dia-final-screens"><img src="/case-studies/dia-support/shopping.webp" alt="Final Shopping Assistant experience"/><img src="/case-studies/dia-support/support.webp" alt="Final Support Chatbot experience"/></div>
+    <div className="dia-final-screens"><img src="/case-studies/dia-support/final-shopping.png" alt="Final Shopping Assistant experience"/><img src="/case-studies/dia-support/final-support.png" alt="Final Support Chatbot experience"/></div>
   </div></section>
 
   <section className="dia-rollout"><div className="shell">
@@ -74,5 +74,5 @@ export default function ShoppingAssistantSupportCaseStudy(){return <main classNa
 
   <section className="reflection shell dia-reflection"><span>Reflection / 09</span><h2>What I took forward.</h2><div><article><strong>Shared identity does not require shared logic.</strong><p>Clear boundaries can make an ecosystem feel more coherent.</p></article><article><strong>Context works best with an override.</strong><p>A sensible default reduces effort; visible control preserves trust.</p></article><article><strong>Navigation belongs to its host.</strong><p>A local feature model cannot ignore the marketplace&apos;s spatial memory.</p></article><article><strong>Observational metrics need honest language.</strong><p>Separate measured outcomes from causal claims when the rollout lacks a control group.</p></article></div></section>
 
-  <a className="next-project" href="/work/nearby-delivery"><span>Next case study</span><strong>Nearby / 3-Hour Delivery Discovery ↗</strong></a>
+  <a className="next-project" href="/work/autocomplete"><span>Next case study</span><strong>Autocomplete Redesign ↗</strong></a>
 </main>}
