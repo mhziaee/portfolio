@@ -66,8 +66,9 @@ function PorsOJooCover(){
     <img className="pors-cover-screen pors-cover-community" src="/case-studies/pors-o-joo/community.png" alt="Pors-o-Joo community page"/>
     <img className="pors-cover-screen pors-cover-question" src="/case-studies/pors-o-joo/question-detail.png" alt="Pors-o-Joo question and answer detail"/>
   </div>;
-}
-About
+}70
+
+AbouAbout
 function DiaSupportCover(){
   return <div className="cover-image dia-support-cover" role="img" aria-label="Digikala Shopping Assistant and Support Chatbot experiences"/>;
 }
