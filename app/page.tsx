@@ -116,7 +116,7 @@ export default function Home(){
       <img className="hero-hand" src="/hero-hand-pen.png" alt="A hand holding a pen"/>
       <h1>
         <span className="hero-line"><strong>I’m Hossein Ziaee,</strong></span>{" "}
-        <span className="hero-line">a Product Designer currently working at</span>{" "}
+        <span className="hero-line">a Product Designer at</span>{" "}
         <span className="hero-line"><span className="digikala-word">Digikala</span>.</span>
       </h1>
     </section>
